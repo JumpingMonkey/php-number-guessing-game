@@ -25,6 +25,10 @@ A simple CLI-based number guessing game implemented in PHP where the computer ra
    ```bash
    docker-compose run --rm game
    ```
+   Or just run from inside the container:
+   ```bash
+   php game.php
+   ```
 4. Follow the on-screen instructions to play the game.
 
 ## File Overview

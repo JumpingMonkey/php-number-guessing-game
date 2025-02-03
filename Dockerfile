@@ -6,5 +6,7 @@ WORKDIR /app
 # Copy application files
 COPY . /app
 
+RUN chmod +x game.php && ln -s /app/game.php /usr/local/bin/game
+
 # Set entrypoint command to run the number guessing game
-CMD [ "php", "game.php" ]
+CMD [ "game" ]
