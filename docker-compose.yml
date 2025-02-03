@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  game:
+    build: .
+    container_name: php-number-guessing-game
+    stdin_open: true
+    tty: true
